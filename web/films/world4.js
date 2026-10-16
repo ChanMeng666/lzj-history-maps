@@ -1,0 +1,53 @@
+// 世界 · 其四《兩頭牛與青蛙》（1842 – 1991+）
+import { beat, reg, arrow, city, label, zone, stream, wall, quote, note, title, ll, C } from "../lib/dsl.js";
+import { P } from "../lib/regions.js";
+const I082 = "《劉仲敬訪談 082》", I036 = "《劉仲敬訪談 036》", I018 = "《劉仲敬訪談 018》", T2 = "《劉仲敬入門第二講 · 通古今之變》";
+const RED = "#b8322a", BLUE = "#3f7cc0", NY = ll(40.71, -74.01);
+
+export default {
+  title: "兩頭牛與青蛙",
+  scenes: [
+    beat({ dur: 16, cam: [[0, { lon: 30, lat: 25, zoom: 0.95 }], [16, { lon: 0, lat: 25, zoom: 0.98 }]], year: "1900",
+      layers: [reg(P.britishEmpire, C.verm, "大英帝國", 7.4, { alpha: 0.5, labelAt: [-2, 54] }), city(ll(51.51, -0.13), "倫敦", 8)],
+      caps: [...title("世界 · 其四", "兩頭牛與青蛙 —— 劉仲敬史觀 · 地圖紀錄片", 1.2, 7),
+        quote("在當時使用金本位制就是緊跟英鎊，*因為英鎊就等於黃金*。", I082, 8, 12), quote("世界體系是逐漸形成的，隨著每一次戰爭和衝突而*向更遠的邊緣地帶擴張*。", I082, 12.2, 15.5)] }),
+    beat({ bbox: [100, 18, 125, 42], year: "1842", yearSub: "至1900", chapNum: "一", chapText: "海洋取代內亞",
+      layers: [city(ll(34.27, 108.95), "長安", 0.4, { t1: 6, color: "#8a8478" }), city(ll(39.9, 116.4), "大都", 0.4, { t1: 6, color: "#8a8478" }),
+        city(ll(31.23, 121.47), "上海", 4), city(ll(23.13, 113.26), "廣州", 4.4), arrow([ll(10, 112), ll(23.13, 113.26)], C.sky, 3, 1.6, { width: 8 })],
+      caps: [quote("海洋的主人大英帝國在東亞取代了內亞海洋的主人，\n*用上海和廣州取代了長安和大都*。", "劉仲敬 Twitter", 1, 13.5)] }),
+    beat({ bbox: [-10, 30, 60, 62], year: "1914", yearSub: "至1918", chapNum: "二", chapText: "一戰",
+      layers: [reg(P.centralPowers, "#5a5f78", "同盟國", 0.4, { labelAt: [16, 49] }), reg(P.entente, C.sky, "協約國", 0.8, { alpha: 0.45, labelAt: [2, 47] })],
+      caps: [quote(`十九世紀自由主義體系瓦解，*德俄日相繼挑戰*`, "《民國紀事本末》", 1, 13.5)] }),
+    beat({ bbox: [-80, 32, 25, 60], year: "1924", yearSub: "至1929 · 道威斯計劃", chapNum: "三", chapText: "美元的循環",
+      layers: [arrow([NY, ll(52.52, 13.4)], C.gold, 0.6, 2.4, { label: "美元", width: 9 }), arrow([ll(52.52, 13.4), ll(48.85, 2.35)], C.ochre, 3, 1.4, { label: "賠款", width: 7 }),
+        arrow([ll(51.5, -0.13), NY], C.ochre, 4.4, 2.4, { label: "戰債", width: 7 })],
+      caps: [quote("華爾街的過剩美元涌進德國，*支持了德國已經一文不值的紙馬克*。", I082, 1, 13.5)] }),
+    beat({ bbox: [-90, 30, 70, 62], year: "1922", yearSub: "至1939", chapNum: "四", chapText: "戰敗者的軸心",
+      layers: [reg(["DEU"], "#5a5f78", "德國", 0.4), reg(P.ussr, RED, "蘇俄", 0.8, { alpha: 0.45, labelAt: [45, 55] }),
+        arrow([ll(42.33, -83.05), ll(53.41, 59)], C.gold, 1.6, 3.5, { label: "技術", width: 8 }), city(ll(53.41, 59), "馬格尼托哥爾斯克", 5)],
+      caps: [quote("有*聯合其他戰敗國（例如蘇維埃俄國）來顛覆世界體系*的強烈動機", I082, 1, 13.5)] }),
+    beat({ dur: 15, cam: [[0, { lon: 60, lat: 30, zoom: 0.95 }], [15, { lon: 140, lat: 25, zoom: 1.0 }]], year: "1941", yearSub: "12月", chapNum: "五", chapText: "波瀾追到遠東",
+      layers: [reg(P.axis, "#5a5f78", null, 0.4), city(ll(22.28, 114.16), "香港", 6), city(ll(21.35, -157.95), "珍珠港", 9)],
+      caps: [quote("西歐中心的戰爭波瀾終於越過東歐和西亞的周邊，*在遠東的邊緣追上了*", "《近代史的墮落》", 1, 8), quote(`西方只要打個噴嚏，你們這邊就要*洪水滔天*`, T2, 8.4, 14.5)] }),
+    beat({ bbox: [-12, 35, 42, 60], year: "1945", yearSub: "至1948", chapNum: "六", chapText: "雅爾塔與馬歇爾",
+      layers: [reg(P.sovietBloc, RED, "蘇聯陣營", 0.6, { alpha: 0.5 }), city(ll(44.5, 34.17), "雅爾塔", 1.2), stream(ll(40, -40), ll(48, 5), C.gold, 2, { n: 50, spread: 50 })],
+      caps: [quote("馬歇爾計劃不是別的，*就是範圍從德國擴大到整個歐洲*。", "《劉仲敬訪談 119》", 1, 7.2), quote("雅爾塔會議的遺產能夠支持幾十年時間，*一點一點衰竭*", "《劉仲敬訪談 040》", 7.6, 13.5)] }),
+    beat({ dur: 15, cam: [[0, { lon: 20, lat: 50, zoom: 1.0 }], [15, { lon: 40, lat: 50, zoom: 1.05 }]], year: "1949", yearSub: "至1970", chapNum: "七", chapText: "冷戰",
+      layers: [reg(P.nato, BLUE, "北約", 0.6, { alpha: 0.5, labelAt: [-30, 45] }), reg([...P.ussr, ...P.sovietBloc], RED, "華約", 1.2, { alpha: 0.45, labelAt: [50, 58] })],
+      caps: [quote("蘇聯依靠的資本就是*美國在二戰時期給它輸入的技術*", I036, 1, 8), quote("美國其實是在*跟自己的影子作戰*。", I036, 8.4, 14.5)] }),
+    beat({ bbox: [100, 0, 145, 45], year: "1950", yearSub: "至1980", chapNum: "八", chapText: "遙遠的邊緣",
+      layers: [reg(P.tigers, BLUE, null, 0.5, { alpha: 0.55 }), reg(["CHN"], RED, null, 1, { alpha: 0.35 }), label([128, 36], "四小龍", 1.6, { size: 34 }), wall([ll(38, 124.6), ll(38, 129.5)], C.paper, 1.2, { width: 3 })],
+      caps: [quote("六、七十年代的四小龍是*冷戰結構的一部分*", I018, 1, 7), quote("為了反對亞洲大陸的共產主義勢力而形成的一個*小馬歇爾計劃*", I018, 7.4, 13.5)] }),
+    beat({ dur: 15, cam: [[0, { lon: 160, lat: 45, zoom: 0.95 }], [15, { lon: 150, lat: 45, zoom: 1.0 }]], year: "冷戰", chapNum: "九", chapText: "兩頭牛打架",
+      layers: [zone(ll(40, -100), "rgba(63,124,192,0.95)", 22, 0.5), zone(ll(58, 90), "rgba(184,50,42,0.95)", 22, 0.8), label(ll(40, -100), "美國", 1, { size: 46 }), label(ll(58, 90), "蘇聯", 1.2, { size: 46 }),
+        zone(ll(35, 120), "rgba(110,125,58,0.95)", 6, 3), label(ll(33, 122), "青蛙", 3.2, { size: 34 })],
+      caps: [quote(`兩頭牛打架踩死了一隻青蛙`, T2, 1, 7.2, { opt: { size: 60 } }), quote(`略同拉封丹寓言*青蛙之影響於公牛群鬥*`, "《民國紀事本末》", 7.6, 14.5)] }),
+    beat({ cam: [[0, { lon: 40, lat: 55, zoom: 1.0 }], [14, { lon: 40, lat: 55, zoom: 1.1 }]], year: "1989", yearSub: "至1991", chapNum: "十", chapText: "洪水先淹窪地",
+      layers: [reg([...P.ussr, ...P.sovietBloc], RED, null, 0, { alpha: 0.45, t1: 7, fade: 2 }), reg([...P.ussr, ...P.sovietBloc], "#3c6f9c", null, 4, { alpha: 0.6, reveal: "grow", growDur: 5 })],
+      caps: [quote("洪水漲上來以後*先把窪地淹了*，於是體現為蘇聯的倒台", "《劉仲敬訪談 015》", 1, 13.5)] }),
+    beat({ dur: 17, cam: [[0, { lon: -40, lat: 30, zoom: 0.95 }], [17, { lon: -20, lat: 30, zoom: 0.98 }]], year: "今天", chapNum: "十一", chapText: "美元的發動機",
+      layers: [...[ll(51, 5), ll(35, 135), ll(-23, -46), ll(25, 55), ll(1.3, 103.8)].map((p, i) => stream(ll(39, -98), p, C.gold, 0.5 + i * 0.3, { n: 30 }))],
+      caps: [quote("*輸出美元和繁榮*，是全球化經濟體系的發動機。", "《劉仲敬訪談 121》", 1, 8), quote(`*英美帝國主義秩序輸出能力更強*一些`, "《劉仲敬論上等人的自由和文明的本質》", 8.4, 15.2),
+        { style: "sub", text: "世界 · 其四《兩頭牛與青蛙》", pos: "center", y: 540, t0: 15.3, t1: 17, wash: false }] }),
+  ],
+};

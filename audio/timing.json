@@ -1,0 +1,765 @@
+{
+ "china1": {
+  "duration": 133.4,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "前3300"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前2300"
+   },
+   {
+    "start": 27.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前2000"
+   },
+   {
+    "start": 40.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前1250"
+   },
+   {
+    "start": 53.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前1200"
+   },
+   {
+    "start": 66,
+    "dur": 13,
+    "trans": 1.4,
+    "year": "前1046"
+   },
+   {
+    "start": 77.6,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前1040"
+   },
+   {
+    "start": 91.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前700"
+   },
+   {
+    "start": 103.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前600"
+   },
+   {
+    "start": 116.4,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "前660"
+   }
+  ]
+ },
+ "china2": {
+  "duration": 137.4,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "前350"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前400"
+   },
+   {
+    "start": 27.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前350"
+   },
+   {
+    "start": 39.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前356"
+   },
+   {
+    "start": 52.4,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "前230"
+   },
+   {
+    "start": 68,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前209"
+   },
+   {
+    "start": 80.6,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前215"
+   },
+   {
+    "start": 94.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前133"
+   },
+   {
+    "start": 107.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "89"
+   },
+   {
+    "start": 120.4,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "184"
+   }
+  ]
+ },
+ "china3": {
+  "duration": 150,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "280"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "311"
+   },
+   {
+    "start": 27.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "386"
+   },
+   {
+    "start": 39.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "534"
+   },
+   {
+    "start": 52.4,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "589"
+   },
+   {
+    "start": 66,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "907"
+   },
+   {
+    "start": 78.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1127"
+   },
+   {
+    "start": 91.2,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "1206"
+   },
+   {
+    "start": 105.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1368"
+   },
+   {
+    "start": 118.4,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "1616"
+   },
+   {
+    "start": 134,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "1912"
+   }
+  ]
+ },
+ "china4": {
+  "duration": 161.6,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "1842"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1853"
+   },
+   {
+    "start": 27.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1900"
+   },
+   {
+    "start": 39.8,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "1911"
+   },
+   {
+    "start": 55.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1912"
+   },
+   {
+    "start": 68,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1912"
+   },
+   {
+    "start": 80.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1920"
+   },
+   {
+    "start": 93.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1915"
+   },
+   {
+    "start": 105.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1932"
+   },
+   {
+    "start": 118.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1624"
+   },
+   {
+    "start": 131,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1912"
+   },
+   {
+    "start": 143.6,
+    "dur": 18,
+    "trans": 1.4,
+    "year": "諸夏"
+   }
+  ]
+ },
+ "prc1": {
+  "duration": 150,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "1920"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1920年代"
+   },
+   {
+    "start": 27.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1923"
+   },
+   {
+    "start": 39.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1924"
+   },
+   {
+    "start": 52.4,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1928"
+   },
+   {
+    "start": 66,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1928"
+   },
+   {
+    "start": 78.6,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1937"
+   },
+   {
+    "start": 92.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1937"
+   },
+   {
+    "start": 104.8,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "1945"
+   },
+   {
+    "start": 119.4,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1949"
+   },
+   {
+    "start": 133,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "1950"
+   }
+  ]
+ },
+ "prc2": {
+  "duration": 135.4,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "1950年代"
+   },
+   {
+    "start": 14.6,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1953"
+   },
+   {
+    "start": 28.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1950年代"
+   },
+   {
+    "start": 40.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1950年代"
+   },
+   {
+    "start": 53.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1958"
+   },
+   {
+    "start": 66,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1960"
+   },
+   {
+    "start": 78.6,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1964"
+   },
+   {
+    "start": 92.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1966"
+   },
+   {
+    "start": 105.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1968"
+   },
+   {
+    "start": 118.4,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "1972"
+   }
+  ]
+ },
+ "prc3": {
+  "duration": 135.4,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "1972"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1978"
+   },
+   {
+    "start": 27.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1980年代"
+   },
+   {
+    "start": 40.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1980"
+   },
+   {
+    "start": 53.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1990年代"
+   },
+   {
+    "start": 66,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1990年代"
+   },
+   {
+    "start": 78.6,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1990年代"
+   },
+   {
+    "start": 92.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "2001"
+   },
+   {
+    "start": 105.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "2010年代"
+   },
+   {
+    "start": 118.4,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "2018"
+   }
+  ]
+ },
+ "world1": {
+  "duration": 150,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "文明的地圖"
+   },
+   {
+    "start": 15.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前3500"
+   },
+   {
+    "start": 28.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前3000"
+   },
+   {
+    "start": 41.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前3300"
+   },
+   {
+    "start": 54.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前2334"
+   },
+   {
+    "start": 67,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前2100"
+   },
+   {
+    "start": 80.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前1650"
+   },
+   {
+    "start": 93.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前1500"
+   },
+   {
+    "start": 106.8,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前1500"
+   },
+   {
+    "start": 120.4,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前539"
+   },
+   {
+    "start": 134,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "前330"
+   }
+  ]
+ },
+ "world2": {
+  "duration": 139.4,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "前800"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "前750"
+   },
+   {
+    "start": 27.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前100"
+   },
+   {
+    "start": 40.8,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "前200"
+   },
+   {
+    "start": 54.4,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "300"
+   },
+   {
+    "start": 68,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "552"
+   },
+   {
+    "start": 81.6,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "唐"
+   },
+   {
+    "start": 95.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1206"
+   },
+   {
+    "start": 108.8,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1260"
+   },
+   {
+    "start": 122.4,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "1497"
+   }
+  ]
+ },
+ "world3": {
+  "duration": 146,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "376"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "500"
+   },
+   {
+    "start": 27.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "800"
+   },
+   {
+    "start": 39.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1000"
+   },
+   {
+    "start": 52.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1088"
+   },
+   {
+    "start": 65,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1066"
+   },
+   {
+    "start": 77.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1550"
+   },
+   {
+    "start": 90.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1492"
+   },
+   {
+    "start": 103.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1620"
+   },
+   {
+    "start": 116.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1776"
+   },
+   {
+    "start": 129,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "接力"
+   }
+  ]
+ },
+ "world4": {
+  "duration": 160.6,
+  "scenes": [
+   {
+    "start": 0,
+    "dur": 16,
+    "trans": 1.4,
+    "year": "1900"
+   },
+   {
+    "start": 14.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1842"
+   },
+   {
+    "start": 27.2,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1914"
+   },
+   {
+    "start": 39.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1924"
+   },
+   {
+    "start": 52.4,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1922"
+   },
+   {
+    "start": 65,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1941"
+   },
+   {
+    "start": 78.6,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1945"
+   },
+   {
+    "start": 91.2,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "1949"
+   },
+   {
+    "start": 104.8,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1950"
+   },
+   {
+    "start": 117.4,
+    "dur": 15,
+    "trans": 1.4,
+    "year": "冷戰"
+   },
+   {
+    "start": 131,
+    "dur": 14,
+    "trans": 1.4,
+    "year": "1989"
+   },
+   {
+    "start": 143.6,
+    "dur": 17,
+    "trans": 1.4,
+    "year": "今天"
+   }
+  ]
+ }
+}
