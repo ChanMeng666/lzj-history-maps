@@ -1,73 +1,85 @@
-<p align="center">
-  <img src="docs/images/series-grid.jpg" width="100%" alt="Title frames of the eleven map films">
-</p>
+<div align="center">
 
 # Liu Zhongjing's History, in Maps
 
-**Eleven animated map documentaries that retell the history of the land now called China, of the People's Republic, and of the world as the historian and political theorist Liu Zhongjing (劉仲敬) reads it.** The maps are drawn entirely in code: a WebGL and Canvas renderer flies a camera over an orthographic globe built from public-domain Natural Earth data, colours historical regions, draws campaign arrows, trade streams, walls and fronts, and keeps a year counter in the corner. Headless Chrome renders every frame in parallel and ffmpeg adds an original score played on recorded instruments. No image or video generation model, photograph or stock footage is used for the picture.
+**Eleven animated map documentaries on the history of the Chinese mainland, the People's Republic and the world as Liu Zhongjing (劉仲敬) reads it, drawn in code on a WebGL and d3-geo globe and rendered frame by frame in headless Chrome.**
 
-This is the companion to [Liu Zhongjing in Watercolour](https://github.com/ChanMeng666/lzj-watercolor-films). Those films explain his ideas; these films put the ideas on the map. Each film has 10 to 12 chapters. Every captioned quotation is verbatim from his books, lectures, interviews or posts, and carries its source on screen. Where a scene gives a plain historical fact rather than his reading, it is labelled as such.
+<img src="docs/images/series-grid.jpg" width="100%" alt="Title frames of the eleven map films">
+
+</div>
+
+The ideas and the quotations are Liu Zhongjing's. The maps are built from public-domain Natural Earth data; no image or video generation model, photograph or stock footage is used for the picture. Companion series: [Liu Zhongjing in Watercolour](https://github.com/ChanMeng666/lzj-watercolor-films).
 
 ## The films
 
-### This Land（這片土地）: four films on the East Asian mainland
+### Dawn of the Xia States 《諸夏之黎明》
+<!-- FILM: liu-zhongjing-dawn-of-the-xia-states · 16:9 · 2:13 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/uJd7ewPNMFY
 
-| # | Title | Period | Argument | Length |
-|---|---|---|---|---|
-| 1 | 《諸夏之黎明》 *Dawn of the Xia States* | c. 3300 BC – 660 BC | A broken, multi-ethnic mainland. Chariots arrive from the steppe and Shang rules from strongholds. Zhou builds feudalism through military colonies. The Xia states are islands in a barbarian sea. | 2:13 |
-| 2 | 《秦政》 *The Qin System* | c. 450 BC – AD 220 | Commanderies begin as patches on the frontier. The registered household atomises society. The machine serves whoever holds it. The steppe answers, mercenaries march, and the grid falls apart. | 2:17 |
-| 3 | 《內亞輸入秩序》 *Order Imported from Inner Asia* | 280 – 1912 | From Yongjia to the Xianbei north and the Wuchuan garrison, through Sui-Tang, Liao, Jin, the Yuan provinces and the Ming, to a Qing that "faced China from an Inner Asian base". | 2:30 |
-| 4 | 《諸夏發聲》 *The Xia States Speak* | 1842 – 1949 | The Royal Navy replaces Inner Asia as the source of order. Provinces come first and the republic after. Wu-Yue, Ba-Shu, Hunan, Yunnan, Guangdong, Manchuria and Taiwan each have their own resources. | 2:42 |
+### The Qin System 《秦政》
+<!-- FILM: liu-zhongjing-the-qin-system · 16:9 · 2:17 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/KQ_b0XPLwPU
 
-### The Republic（共和國）: three films on the PRC
+### Order Imported from Inner Asia 《內亞輸入秩序》
+<!-- FILM: liu-zhongjing-order-imported-from-inner-asia · 16:9 · 2:30 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/4c6nYTUqOLM
 
-| # | Title | Period | Argument | Length |
-|---|---|---|---|---|
-| 5 | 《支部》 *The Branch* | 1920 – 1953 | A small Comintern branch, money and discipline from Moscow, the party-state template, the nodes of 1928 and 1937, the Manchurian party, and why Korea was not a node. | 2:30 |
-| 6 | 《大禮包與無底洞》 *Gift Box and Bottomless Pit* | 1950 – 1972 | Manchuria as a prize for Moscow, the 156 projects, Wafangdian, the Third Front, the factions of the Cultural Revolution, and the 1972 node. | 2:15 |
-| 7 | 《中間那一節》 *The Missing Middle* | 1972 – today | Opening the sluice gate, importing the American order to the coast, special zones, round-tripped capital, migrant workers, "the last link in industrial obsolescence", and the end of technology transfer. | 2:15 |
+### The Xia States Speak 《諸夏發聲》
+<!-- FILM: liu-zhongjing-the-xia-states-speak · 16:9 · 2:42 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/WyrCKbSdGkU
 
-### The World（世界）: four films on world history
+### The Branch 《支部》
+<!-- FILM: liu-zhongjing-the-branch · 16:9 · 2:30 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/M9BZTNBXwxY
 
-| # | Title | Period | Argument | Length |
-|---|---|---|---|---|
-| 8 | 《起火點》 *Where the Fire Started* | c. 3500 BC – 330 BC | The "greater Europe" core and its four secondary zones. Sumerian city-states, chariots, the Indo-European waves, Persia. | 2:30 |
-| 9 | 《內亞海洋》 *The Inner Asian Ocean* | 800 BC – AD 1500 | The second generation of civilisations. Rome and Han, the Xiongnu, Sogdians and Sasanians, the Turks, the Mongols, and the sea route's return. | 2:19 |
-| 10 | 《種子銀行》 *The Seed Bank* | 376 – 1789 | The church that would not die, the multi-centred Latin world, Roman law, England as a seed of Germanic feudalism, and America as England's own seed. | 2:26 |
-| 11 | 《兩頭牛與青蛙》 *Two Bulls and a Frog* | 1842 – today | The British gold standard, the world wars, the dollar cycle, the Cold War, and "two bulls fighting trample a frog". | 2:41 |
+### Gift Box and Bottomless Pit 《大禮包與無底洞》
+<!-- FILM: liu-zhongjing-gift-box-and-bottomless-pit · 16:9 · 2:15 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/hdcYtqPiQaI
 
-The year, chapter, quotation and source of every scene are listed in [`docs/STORYBOARD.md`](docs/STORYBOARD.md).
+### The Missing Middle 《中間那一節》
+<!-- FILM: liu-zhongjing-the-missing-middle · 16:9 · 2:15 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/8TsZnOn1j-0
 
-<p align="center"><img src="docs/images/contact-sheet.jpg" width="100%" alt="Frames from all eleven films"></p>
+### Where the Fire Started 《起火點》
+<!-- FILM: liu-zhongjing-where-the-fire-started · 16:9 · 2:30 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/I5XjoNquyzc
 
-## How a frame is made
+### The Inner Asian Ocean 《內亞海洋》
+<!-- FILM: liu-zhongjing-the-inner-asian-ocean · 16:9 · 2:19 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/RnMtqdJTSk4
 
-1. **Geography.** `scripts/build_geo.py` downloads Natural Earth 1:50m countries, land, rivers and lakes and 1:10m provinces and states. It simplifies them with mapshaper into TopoJSON in `data/topo/`. Chinese provinces (with Taiwan) and US states get their own `CN:` and `US:` ids so regions can be built from them. The Natural Earth shaded relief becomes a WebGL texture that is multiplied over the land.
-2. **A film is data.** Each file in `web/films/` is a list of `beat({...})` calls written with a small DSL (`web/lib/dsl.js`). A beat sets a camera, which is either a bounding box to fit or keyframes to fly through, along with a year label, a chapter seal and its layers. Layers are region fills that fade or grow, hatching, labels, pulsing cities, progressive arcs with flowing light, particle streams, zones, walls and fronts, plus captions. Historical regions are named groups of modern units in `web/lib/regions.js`.
-3. **The renderer.** `web/lib/map.js` draws an orthographic globe with d3-geo: a sea gradient, graticule, land with relief, borders, then rivers, lakes and province lines that appear as you zoom in. The thematic layers go on top. The camera zooms out in the middle of long flights, so the viewer keeps their bearings. Scenes crossfade, and captions use the same typography engine as the watercolour films.
-4. **Frames.** `render.mjs` starts several headless Chrome pages, gives each a slice of the timeline, captures 1920×1080 frames at 30 fps, and pipes them to ffmpeg.
-5. **Score.** `scripts/timing.mjs` exports scene boundaries. `audio/compose.py` writes one cue per scene from recorded-instrument samples: a pentatonic minor with zither, erhu and harp for *This Land*, strings, brass and marches in A minor for *The Republic*, and a pentatonic major with horns and harp for *The World*. A soft timpani stroke marks every chapter change.
+### The Seed Bank 《種子銀行》
+<!-- FILM: liu-zhongjing-the-seed-bank · 16:9 · 2:26 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/J7JfhzHmBos
 
-## Running it
+### Two Bulls and a Frog 《兩頭牛與青蛙》
+<!-- FILM: liu-zhongjing-two-bulls-and-a-frog · 16:9 · 2:41 — Chan uploads the video here in GitHub's web editor -->
+▶ Watch on YouTube: https://youtu.be/gZBkrnX34X4
 
-Requirements: Node 18+, Python 3.11+ with numpy, scipy, soundfile and soxr, ffmpeg and Chrome. You also need the instrument sample libraries described in the sampler (`LZJ_INSTRUMENTS` points to them). Rebuilding the geography needs mapshaper (`npm i -g mapshaper`).
+## How it's made
+
+- **Geography from open data.** `scripts/build_geo.py` turns Natural Earth countries, provinces, rivers, lakes and shaded relief into simplified TopoJSON (mapshaper) in `data/topo/`; historical regions are named groups of modern units in `web/lib/regions.js`.
+- **A film is data.** Each file in `web/films/` is a list of `beat({...})` calls in a small DSL (`web/lib/dsl.js`): a camera fit or flight, a year label, a chapter seal, region fills, campaign arrows, streams, walls, fronts and captions.
+- **The renderer.** `web/lib/map.js` draws an orthographic globe with d3-geo and Canvas/WebGL: sea gradient, graticule, relief, borders, then rivers and province lines that appear as the camera zooms in.
+- **Frames and score.** `render.mjs` slices the timeline across parallel headless Chrome pages (playwright-core) and pipes 1920×1080 frames to ffmpeg; `audio/compose.py` writes one cue per scene from recorded instrument samples.
+- **Quotations are sourced.** Every captioned quotation is verbatim and carries its source on screen; all are listed in [docs/STORYBOARD.md](docs/STORYBOARD.md). Borders are present-day Natural Earth boundaries used as a stage, not claims about sovereignty.
+
+## Make your own
+
+Needs Node 18+, Python 3.11+ (numpy, scipy, soundfile, soxr), ffmpeg and Chrome. The map data is committed; the instrument sample libraries are not: point `LZJ_INSTRUMENTS` at your own copy (see `audio/lib/sampler.py`).
 
 ```bash
 npm install
-python scripts/build_geo.py          # optional: data/topo is committed
 node scripts/timing.mjs > audio/timing.json
-python audio/compose.py all          # writes audio/out/<film>.wav
-node render.mjs china1 --workers 6   # writes out/china1.mp4
-node render.mjs prc2 --stills 10,40  # single frames to out/stills/
-node scripts/storyboard.mjs          # regenerates docs/STORYBOARD.md
+python audio/compose.py china1         # audio/out/china1.wav
+node render.mjs china1 --stills 10,40  # single frames to out/stills/
+node render.mjs china1 --workers 6     # out/china1.mp4
 ```
 
-To preview a film in a browser, serve the repository root and open `/web/player.html?film=world3`.
+## Licence
 
-## Notes on the maps
+- **Code:** MIT ([LICENSE](LICENSE)).
+- **Films, scores, map designs and images made by Chan Meng:** CC BY 4.0 ([LICENSE-MEDIA.md](LICENSE-MEDIA.md)).
+- **Excluded:** the quoted text, which is Liu Zhongjing's and credited to him; Natural Earth data (public domain, naturalearthdata.com); d3-geo, d3-array, internmap and topojson-client (ISC) and other npm libraries (their licences); fonts (LXGW WenKai TC, Noto Serif TC: SIL OFL 1.1); the Lemo-Opuscar sampler helpers (MIT, © 2026 LemoLab); instrument samples (their own licences, not redistributed). Full list: [NOTICE.md](NOTICE.md).
 
-- Borders are present-day Natural Earth boundaries, used as a stage for historical regions. Ancient polities are approximated by groups of modern provinces or countries. These are not claims about sovereignty, past or present.
-- The films present Liu Zhongjing's interpretation. Where his reading departs from the mainstream (for example, that Shang and Zhou were "late Mesopotamian" civilisations), the scene says it is his reading.
-- Simplified-script quotations are converted to Traditional characters and full-width punctuation by `scripts/s2t.py`, so the captions look consistent. The wording is not changed.
-
-Third-party data, code, fonts and samples are listed in [`NOTICE.md`](NOTICE.md).
+More detail: [docs/overview.md](docs/overview.md)
