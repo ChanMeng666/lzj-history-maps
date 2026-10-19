@@ -13,47 +13,36 @@ The ideas and the quotations are Liu Zhongjing's. The maps are built from public
 ## The films
 
 ### Dawn of the Xia States 《諸夏之黎明》
-<!-- FILM: liu-zhongjing-dawn-of-the-xia-states · 16:9 · 2:13 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/uJd7ewPNMFY
 
 ### The Qin System 《秦政》
-<!-- FILM: liu-zhongjing-the-qin-system · 16:9 · 2:17 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/KQ_b0XPLwPU
 
 ### Order Imported from Inner Asia 《內亞輸入秩序》
-<!-- FILM: liu-zhongjing-order-imported-from-inner-asia · 16:9 · 2:30 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/4c6nYTUqOLM
 
 ### The Xia States Speak 《諸夏發聲》
-<!-- FILM: liu-zhongjing-the-xia-states-speak · 16:9 · 2:42 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/WyrCKbSdGkU
 
 ### The Branch 《支部》
-<!-- FILM: liu-zhongjing-the-branch · 16:9 · 2:30 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/M9BZTNBXwxY
 
 ### Gift Box and Bottomless Pit 《大禮包與無底洞》
-<!-- FILM: liu-zhongjing-gift-box-and-bottomless-pit · 16:9 · 2:15 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/hdcYtqPiQaI
 
 ### The Missing Middle 《中間那一節》
-<!-- FILM: liu-zhongjing-the-missing-middle · 16:9 · 2:15 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/8TsZnOn1j-0
 
 ### Where the Fire Started 《起火點》
-<!-- FILM: liu-zhongjing-where-the-fire-started · 16:9 · 2:30 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/I5XjoNquyzc
 
 ### The Inner Asian Ocean 《內亞海洋》
-<!-- FILM: liu-zhongjing-the-inner-asian-ocean · 16:9 · 2:19 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/RnMtqdJTSk4
 
 ### The Seed Bank 《種子銀行》
-<!-- FILM: liu-zhongjing-the-seed-bank · 16:9 · 2:26 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/J7JfhzHmBos
 
 ### Two Bulls and a Frog 《兩頭牛與青蛙》
-<!-- FILM: liu-zhongjing-two-bulls-and-a-frog · 16:9 · 2:41 — Chan uploads the video here in GitHub's web editor -->
 ▶ Watch on YouTube: https://youtu.be/gZBkrnX34X4
 
 ## How it's made
